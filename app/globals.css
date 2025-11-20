@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #2E7D32;
+  --color-brand-darkGreen: #1B5E20;
+  --color-brand-brown: #6B4F3A;
+  --color-brand-cream: #F7F3EE;
+  --color-brand-ink: #0E1111;
+  --color-brand-softGray: #F5F5F0;
+
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --font-hand: var(--font-hand);
+
+  --background-image-pattern-leaf: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1h2v2H1V1zm4 4h2v2H5V5z' fill='%232E7D32' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+@layer utilities {
+  .glass-nav {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(46, 125, 50, 0.05);
+  }
+  
+  .shadow-card {
+    box-shadow: 0 4px 20px -5px rgba(46, 125, 50, 0.08);
+  }
+}
+
+:root {
+  --background: #F7F3EE;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
