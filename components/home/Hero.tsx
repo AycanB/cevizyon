@@ -34,7 +34,7 @@ export default function Hero() {
             <div className="relative">
                 <div className="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl rotate-1 border-4 border-white h-[550px]">
                     <Image 
-                      src="https://images.unsplash.com/photo-1605255868226-3874937d1a5c?q=80&w=800&auto=format&fit=crop" 
+                      src="https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=800&auto=format&fit=crop" 
                       alt="Aycan Ceviz Bahçesinde" 
                       fill
                       className="object-cover"

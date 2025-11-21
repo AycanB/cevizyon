@@ -15,10 +15,11 @@ export default function ProductsGrid() {
                     <div className="relative bg-gray-100 rounded-xl aspect-square mb-4 overflow-hidden">
                         <span className="absolute top-3 left-3 bg-brand-green text-white text-[10px] font-bold px-3 py-1 rounded-full z-10 shadow-sm">ÇOK SATAN</span>
                         <Image 
-                            src="https://images.unsplash.com/photo-1634739207858-689b6f79a65e?q=80&w=600&auto=format&fit=crop"
+                            src="https://images.unsplash.com/photo-1560800662-2935f113584d?q=80&w=600&auto=format&fit=crop"
                             alt="İnce Kabuklu Ceviz"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-500 mix-blend-multiply"
+                            unoptimized
                         />
                     </div>
                     <div className="px-2 pb-2">
@@ -37,10 +38,11 @@ export default function ProductsGrid() {
                 <div className="group bg-white rounded-2xl p-3 shadow-card hover:-translate-y-2 transition-all duration-300 cursor-pointer">
                     <div className="relative bg-gray-100 rounded-xl aspect-square mb-4 overflow-hidden">
                         <Image 
-                            src="https://images.unsplash.com/photo-1554483425-9b283299a025?q=80&w=600&auto=format&fit=crop"
+                            src="https://images.unsplash.com/photo-1506102543576-d9523b363236?q=80&w=600&auto=format&fit=crop"
                             alt="Kelebek İç Ceviz"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-500 mix-blend-multiply"
+                            unoptimized
                         />
                     </div>
                     <div className="px-2 pb-2">
@@ -60,10 +62,11 @@ export default function ProductsGrid() {
                     <div className="relative bg-gray-100 rounded-xl aspect-square mb-4 overflow-hidden">
                         <span className="absolute top-3 left-3 bg-brand-brown text-white text-[10px] font-bold px-3 py-1 rounded-full z-10 shadow-sm">GELENEKSEL</span>
                         <Image 
-                            src="https://images.unsplash.com/photo-1529105896405-37226c9815b3?q=80&w=600&auto=format&fit=crop"
+                            src="https://images.unsplash.com/photo-1595412017693-73f7299476a6?q=80&w=600&auto=format&fit=crop"
                             alt="Cevizli Sucuk"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-500 mix-blend-multiply"
+                            unoptimized
                         />
                     </div>
                     <div className="px-2 pb-2">
@@ -83,10 +86,11 @@ export default function ProductsGrid() {
                     <div className="relative bg-gray-100 rounded-xl aspect-square mb-4 overflow-hidden">
                         <span className="absolute top-3 left-3 bg-gray-500 text-white text-[10px] font-bold px-3 py-1 rounded-full z-10 shadow-sm">HEDİYELİK</span>
                         <Image 
-                            src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?q=80&w=600&auto=format&fit=crop"
+                            src="https://images.unsplash.com/photo-1549488344-c1a232d3b8a4?q=80&w=600&auto=format&fit=crop"
                             alt="Karışık Kutu"
                             fill
                             className="object-cover grayscale mix-blend-multiply"
+                            unoptimized
                         />
                     </div>
                     <div className="px-2 pb-2">
